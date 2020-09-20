@@ -1,6 +1,7 @@
 import { css } from "emotion";
 
 export const navbarWrapper = css({
+  transition: ".2s ease",
   background: "#383838",
   display: "grid",
   alignItems: "center",
@@ -26,6 +27,20 @@ export const navbarWrapper = css({
       },
       "li:active": {
         borderBottom: "2px solid white",
+      },
+    },
+  },
+});
+
+export const navbarWrapperLightMode = css({
+  background: "#e6ede6",
+  color: "#383838",
+  nav: {
+    ul: {
+      li: {
+        a: {
+          color: "#383838",
+        },
       },
     },
   },

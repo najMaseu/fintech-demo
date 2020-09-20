@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { CatGenerator } from "./components/cat-generator/CatGenerator";
 import { Container } from "./components/container/Container";
 import { Navbar } from "./components/navbar/Navbar";
 
@@ -7,16 +8,18 @@ export const App = () => {
   return (
     <Router>
       <Navbar />
-      <Container>
-        <Switch>
-          <Route path="/cats">
-            <div>Catssss</div>
-          </Route>
-          <Route path="/">
+      <Switch>
+        <Route path="/cats">
+          <Container title={"Random Cat Generator"}>
+            <CatGenerator />
+          </Container>
+        </Route>
+        <Route path="/">
+          <Container title={"Counter"}>
             <div>Home</div>
-          </Route>
-        </Switch>
-      </Container>
+          </Container>
+        </Route>
+      </Switch>
     </Router>
   );
 };
