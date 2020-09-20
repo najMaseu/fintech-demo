@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { CatGenerator } from "./components/cat-generator/CatGenerator";
 import { Container } from "./components/container/Container";
+import { Counter } from "./components/counter/Counter";
 import { Navbar } from "./components/navbar/Navbar";
+import { CounterContextProvider } from "./Context/CounterContext";
 
 export const App = () => {
   return (
@@ -16,7 +18,9 @@ export const App = () => {
         </Route>
         <Route path="/">
           <Container title={"Counter"}>
-            <div>Home</div>
+            <CounterContextProvider>
+              <Counter />
+            </CounterContextProvider>
           </Container>
         </Route>
       </Switch>

@@ -25,9 +25,6 @@ export const navbarWrapper = css({
       "li:hover": {
         borderBottom: "2px solid white",
       },
-      "li:active": {
-        borderBottom: "2px solid white",
-      },
     },
   },
 });
@@ -41,6 +38,9 @@ export const navbarWrapperLightMode = css({
         a: {
           color: "#383838",
         },
+      },
+      "li:hover": {
+        borderBottom: "2px solid #383838",
       },
     },
   },
