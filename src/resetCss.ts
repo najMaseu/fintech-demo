@@ -22,11 +22,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+ 
+html, body, #root {
+	height: 90vh;
+}
 body {
     line-height: 1;
     background: hotpink;
     color: white;
-    font-family: Helvetica;
+	font-family: Helvetica;
+	min-height: 100vh;
 }
 ol, ul {
 	list-style: none;
