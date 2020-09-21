@@ -4,7 +4,7 @@ import { CatGenerator } from "./components/cat-generator/CatGenerator";
 import { Container } from "./components/container/Container";
 import { Counter } from "./components/counter/Counter";
 import { Navbar } from "./components/navbar/Navbar";
-import { CounterContextProvider } from "./Context/CounterContext";
+import { CounterContextProvider } from "./context/CounterContext";
 
 export const App = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { CounterContext } from "../../Context/CounterContext";
+import { CounterContext } from "../../context/CounterContext";
 import { counterWrapper } from "./Counter.styles";
 
 export const Counter = () => {
