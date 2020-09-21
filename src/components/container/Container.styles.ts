@@ -19,6 +19,7 @@ export const container = css({
   alignItems: "center",
   background: "#383838",
   borderRadius: "1em",
+  boxShadow: ".15em .3em 10px black",
   h1: {
     fontSize: "2em",
     borderBottom: "2px white solid",
