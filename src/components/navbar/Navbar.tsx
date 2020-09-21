@@ -31,6 +31,10 @@ export const Navbar = () => {
           <li>
             <Link to="/cats">Cats</Link>
           </li>
+          <h1>|</h1>
+          <li>
+            <Link to="/table">useCallback</Link>
+          </li>
         </ul>
       </nav>
       <ThemeSwitch />

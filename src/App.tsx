@@ -4,6 +4,7 @@ import { CatGenerator } from "./components/cat-generator/CatGenerator";
 import { Container } from "./components/container/Container";
 import { Counter } from "./components/counter/Counter";
 import { Navbar } from "./components/navbar/Navbar";
+import { Buttons } from "./components/table-demo/Table";
 import { CounterContextProvider } from "./context/CounterContext";
 
 export const App = () => {
@@ -14,6 +15,11 @@ export const App = () => {
         <Route path="/cats">
           <Container title={"Random Cat Generator"}>
             <CatGenerator />
+          </Container>
+        </Route>
+        <Route path="/table">
+          <Container title={"useCallback Demo"}>
+            <Buttons />
           </Container>
         </Route>
         <Route path="/">
