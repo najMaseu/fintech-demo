@@ -1,44 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Demo App written for HL Tech's FinTech Challange participants.
 
-## Available Scripts
+## Demo includes features implemented with:
 
-In the project directory, you can run:
+1. TypeScript
+2. React
+3. React Context
+4. Redux
+5. React Router
+6. Emotion js
+7. React Hooks
 
-### `yarn start`
+## Knowledge / Tutorials / Interesting links
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Below you'll find all the resources used in a keynote pres.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Typescript:
 
-### `yarn test`
+- What is TS?: https://pl.wikipedia.org/wiki/TypeScript
+- Why?: https://itnext.io/why-use-typescript-good-and-bad-reasons-ccd807b292fb
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Types:
 
-### `yarn build`
+- Type Inference: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+- any, basic types: https://www.typescriptlang.org/docs/handbook/basic-types.html
+- Other Object Types: https://www.typescriptlang.org/docs/handbook/2/objects.html#generic-object-types
+- Type Aliases: https://www.typescriptlang.org/docs/handbook/literal-types.html
+- Interfaces: https://www.typescriptlang.org/docs/handbook/interfaces.html
+- interface vs type: https://www.youtube.com/watch?v=crjIq7LEAYw
+- Tuple: https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple
+- Enums: https://www.typescriptlang.org/docs/handbook/enums.html
+- Assertions: https://www.typescriptlang.org/docs/handbook/basic-types.html#type-assertions
+- Utility types: https://www.typescriptlang.org/docs/handbook/utility-types.html
+- Type-guard: https://rangle.io/blog/how-to-use-typescript-type-guards/
+- typeof: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#unions
+- Generics: https://www.typescriptlang.org/docs/handbook/generics.html
+- ts config: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+- strict mode: https://www.youtube.com/watch?v=O4CtL-iw72U
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### React + TS
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- React TypeScript chetsheet: https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/function_components 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Interesting libs
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React Query: https://react-query.tanstack.com/
+- Emotion js: https://emotion.sh/docs/introduction
+- React Router: https://reactrouter.com/web/guides/quick-start
