@@ -7,7 +7,12 @@ export const CatGenerator = () => {
 
   return (
     <div className={catGeneratorWrapper}>
-      <p>We're fetching a cat image from an API using custom hook! 👉</p>
+      <p>
+        We're fetching a cat image from an API using custom hook!
+        <span role="img" aria-label="emoji">
+          👉
+        </span>
+      </p>
       {isFetching ? (
         <h2>Please wait...</h2>
       ) : (

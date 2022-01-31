@@ -8,7 +8,7 @@ export const themeSwitchWrapper = css({
     paddingRight: 2,
     outline: "none",
     borderRadius: "100%",
-    background: "#383838",
+    background: "transparent",
   },
   "button:hover": {
     background: "darkgrey",

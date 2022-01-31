@@ -1,5 +1,5 @@
 import { cx } from "emotion";
-import React from "react";
+import React, { PropsWithChildren } from "react";
 import { useSelector } from "react-redux";
 import { ThemeOptions, ThemeState } from "../../redux/reducers/themeReducer";
 import {
@@ -12,7 +12,10 @@ interface ContainerProps {
   title: string;
 }
 
-export const Container: React.FC<ContainerProps> = ({ children, title }) => {
+export const Container = ({
+  children,
+  title,
+}: PropsWithChildren<ContainerProps>) => {
   const theme = useSelector<ThemeState>((state) => state.theme);
 
   return (

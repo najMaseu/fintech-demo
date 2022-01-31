@@ -1,4 +1,5 @@
 import React, { Dispatch, SetStateAction, useState } from "react";
+import { WithChildrenProp } from "../types";
 
 type UseStateReturn = {
   count: number;
@@ -7,7 +8,7 @@ type UseStateReturn = {
 
 export const CounterContext = React.createContext({} as UseStateReturn);
 
-export const CounterContextProvider: React.FC = ({ children }) => {
+export const CounterContextProvider = ({ children }: WithChildrenProp) => {
   const [count, setCount] = useState(0);
   return (
     <CounterContext.Provider

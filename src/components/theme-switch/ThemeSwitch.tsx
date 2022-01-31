@@ -12,12 +12,19 @@ export const ThemeSwitch = () => {
   return (
     <div className={themeSwitchWrapper}>
       {theme === ThemeOptions.DARK ? (
-        <button onClick={() => dispatch(changeTheme(ThemeOptions.LIGHT))}>
-          🌞
+        <button
+          data-cy="light-mode"
+          onClick={() => dispatch(changeTheme(ThemeOptions.LIGHT))}
+        >
+          <span role="img" aria-label="emoji">
+            🌞
+          </span>
         </button>
       ) : (
         <button onClick={() => dispatch(changeTheme(ThemeOptions.DARK))}>
-          🌕
+          <span role="img" aria-label="emoji">
+            🌕
+          </span>
         </button>
       )}
     </div>

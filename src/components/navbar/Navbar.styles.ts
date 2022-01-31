@@ -8,6 +8,9 @@ export const navbarWrapper = css({
   gridTemplateColumns: "1fr 3fr 1fr",
   padding: "0.5em",
   nav: {
+    button: {
+      background: "transparent",
+    },
     ul: {
       display: "flex",
       justifyContent: "center",
