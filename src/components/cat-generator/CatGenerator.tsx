@@ -16,7 +16,7 @@ export const CatGenerator = () => {
       {isFetching ? (
         <h2>Please wait...</h2>
       ) : (
-        <img src={catData} alt={"random cat"} />
+        <img data-cy="lol" src={catData} alt={"random cat"} />
       )}
     </div>
   );

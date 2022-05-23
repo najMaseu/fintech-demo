@@ -15,11 +15,12 @@ interface ContainerProps {
 export const Container = ({
   children,
   title,
+  ...passedProps
 }: PropsWithChildren<ContainerProps>) => {
   const theme = useSelector<ThemeState>((state) => state.theme);
 
   return (
-    <main className={containerWrapper}>
+    <main {...passedProps} className={containerWrapper}>
       <div
         className={cx(
           container,

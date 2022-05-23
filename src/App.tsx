@@ -12,7 +12,7 @@ export const App = () => (
     <Navbar />
     <Switch>
       <Route path="/cats">
-        <Container title={"Random Cat Generator"}>
+        <Container data-cy={"cats-lol"} title={"Random Cat Generator"}>
           <CatGenerator />
         </Container>
       </Route>
